@@ -1,0 +1,76 @@
+html{
+    background: url(b.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    color : white;   
+}
+
+.notediv{
+    position:absolute; 
+    display:inline-block; 
+    width: 19%; 
+    margin: 1%;
+    font-size: 14px;
+    right: 67%;
+    top: 15%;
+    
+}
+
+.notetextarea{
+    width: 125%; 
+    min-height: 3em;
+    padding: 15px; 
+    display:block;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 14px;
+    word-wrap:break-word;
+    resize: none; 
+    box-sizing: border-box;
+
+        border: 3px solid #333333;
+        font-size: 1.5rem;
+        border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+        text-transform: uppercase;
+        letter-spacing: 0.3ch;
+        background: #ffffff;
+        opacity: 80%;
+        position: relative;
+}
+
+.notebutton{
+    position: absolute;  
+    bottom: -1%; 
+    right: -25%; 
+    border-radius:2px;
+    opacity: 95%;
+}
+
+.oldNotes{
+    width: 100%; 
+    padding: 15px; 
+    display:block;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 14px;
+    word-wrap:break-word;
+    resize: none; 
+    box-sizing: border-box;
+
+        border: 3px solid #333333;
+        font-size: 1.5rem;
+        border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+        text-transform: uppercase;
+        letter-spacing: 0.3ch;
+        background: #ffffff;
+        opacity: 80%;
+        position: relative;
+      
+}
